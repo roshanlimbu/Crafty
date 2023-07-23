@@ -74,11 +74,14 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+<<<<<<< HEAD
   Colorschemes = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Colorschemes",
     url = "https://github.com/LunarVim/Colorschemes"
   },
+=======
+>>>>>>> 87e57b72d610599ee4bdceee962114984f75a22d
   ["Comment.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Comment.nvim",
@@ -99,6 +102,7 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+<<<<<<< HEAD
   ["cmp-nvim-lua"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lua",
@@ -114,11 +118,14 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+=======
+>>>>>>> 87e57b72d610599ee4bdceee962114984f75a22d
   ["colorbuddy.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+<<<<<<< HEAD
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -133,6 +140,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+=======
+  ["git.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\git.nvim",
+    url = "https://github.com/dinhhuy258/git.nvim"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+>>>>>>> 87e57b72d610599ee4bdceee962114984f75a22d
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -199,11 +217,14 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+<<<<<<< HEAD
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
+=======
+>>>>>>> 87e57b72d610599ee4bdceee962114984f75a22d
   ["nvim-treesitter"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
@@ -244,6 +265,7 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+<<<<<<< HEAD
   ["toggleterm.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
@@ -254,6 +276,8 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+=======
+>>>>>>> 87e57b72d610599ee4bdceee962114984f75a22d
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\zen-mode.nvim",

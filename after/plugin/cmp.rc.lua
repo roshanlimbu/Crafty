@@ -29,6 +29,11 @@ cmp.setup({
   mapping = cmp.mapping.preset.insert({
     ["<C-k>"] = cmp.mapping(cmp.mapping.select_prev_item(), { "i", "c" }),
     ["<C-j>"] = cmp.mapping(cmp.mapping.select_next_item(), { "i", "c" }),
+<<<<<<< HEAD
+=======
+    -- ["<S-tab>"] = cmp.mapping(cmp.mapping.select_prev_item(), { "i", "c" }),
+    -- ["<tab>"] = cmp.mapping(cmp.mapping.select_next_item(), { "i", "c" }),
+>>>>>>> 87e57b72d610599ee4bdceee962114984f75a22d
     ['<C-d>'] = cmp.mapping.scroll_docs(-4),
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
     ['<C-Space>'] = cmp.mapping.complete(),
