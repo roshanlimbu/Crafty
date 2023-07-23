@@ -123,19 +123,11 @@ nvim_lsp.astro.setup {
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {
-<<<<<<< HEAD
     underline = true,
     update_in_insert = false,
     virtual_text = { spacing = 4, prefix = "●" },
     severity_sort = true,
   }
-=======
-  underline = true,
-  update_in_insert = false,
-  virtual_text = { spacing = 4, prefix = "●" },
-  severity_sort = true,
-}
->>>>>>> 87e57b72d610599ee4bdceee962114984f75a22d
 )
 
 -- Diagnostic symbols in the sign column (gutter)
